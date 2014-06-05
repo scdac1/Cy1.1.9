@@ -1,0 +1,12 @@
+Package: com.hackyouriphone.appsync7
+Name: AppSync for iOS 7.0+
+Version: 2.5
+Pre-Depends: firmware (>= 7.0)
+Conflicts: us.hackulo.appsync50plus, org.appaddict.appsync5, info.cracklords.appsync6
+Replaces: us.hackulo.appsync50plus, org.appaddict.appsync5, info.cracklords.appsync6
+Architecture: iphoneos-arm
+Author: AppAddict <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=appsync7
+Section: HYI - IPA
+Description: AppSync allows you to sync and install cracked iOS applications
+Maintainer: iDevid <repo@hackyouriphone.org>

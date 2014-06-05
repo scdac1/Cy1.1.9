@@ -1,0 +1,12 @@
+#!/bin/sh
+
+chmod 777 /bin/ppsync.dylib
+chmod 777 /usr/bin/ps
+chmod 777 /usr/bin/changeinstalld
+
+/usr/bin/changeinstalld "install"
+
+launchctl unload /System/Library/LaunchDaemons/com.apple.mobile.installd.plist
+launchctl load /System/Library/LaunchDaemons/com.apple.mobile.installd.plist
+
+echo Successfully install and enjoy!
